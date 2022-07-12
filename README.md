@@ -51,7 +51,7 @@ python test_deblur_dvs.py --dataset 'dvs'
 ## Training
 <!-- TBD: setup detail-->
 ```
-python train_deblur_dvs.py --dataset 'dvs' --epochs 21 --batch_size 2 
+python train_deblur_dvs.py --dataset 'dvs' --epochs 21 --batch_size 2 \
 --test_batch_size 1 --use_multigpu True
 ```
 
