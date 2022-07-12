@@ -43,7 +43,6 @@ bash install.sh
 
 ## Test
 <!-- TBD: setup detail-->
-
 ```
 python test_deblur_dvs.py --dataset 'dvs'
 ```
@@ -52,13 +51,13 @@ python test_deblur_dvs.py --dataset 'dvs'
 ## Training
 <!-- TBD: setup detail-->
 ```
-python train_deblur_dvs.py --dataset 'dvs' --epochs 21 --batch_size 2 --test_batch_size 1 --use_multigpu True
+python train_deblur_dvs.py --dataset 'dvs' --epochs 21 --batch_size 2 
+--test_batch_size 1 --use_multigpu True
 ```
 
 
 ## Results
-
-<!-- TBD: visual results, Tables -->
+<!-- TBD: change results, Tables -->
 ![real_blur_045_resized](/figure/video_results_real_blur.gif "real_blur_045_resized")
 
 
@@ -67,12 +66,17 @@ python train_deblur_dvs.py --dataset 'dvs' --epochs 21 --batch_size 2 --test_bat
 
 
 ## Reference
-<!-- TBD: BibTeX-->
 > Taewoo Kim, Jeongmin Lee, Lin Wang, and Kuk-Jin Yoon" Event-guided Deblurring of Unknown Exposure Time Videos", In _ECCV_, 2022.
 
 **BibTeX**
+<!-- TBD: Change to ECCV bibtex format-->
 ```bibtex
-@inproceedings{
+@article{kim2021event,
+  title={Event-guided Deblurring of Unknown Exposure Time Videos},
+  author={Kim, Taewoo and Lee, Jungmin and Wang, Lin and Yoon, Kuk-Jin},
+  journal={arXiv preprint arXiv:2112.06988},
+  year={2021}
+}
 ```
 
 ## Contact
