@@ -23,7 +23,7 @@
 1. [Contact](#Contact)
 
 
-## Color-DVS dataset for event-guided motion deblurring
+## Color-DVS
 #### The first public event-based deblurring dataset. Our dataset contain diverse scene including real-world event using color-DAVIS camera.
 You can download the raw-data(collected frame and events) from this google drive [link](https://drive.google.com/file/d/16qlLDOm5Q6fqpDYxNYMtm7reGfzaOyra/view?usp=sharing)
 
